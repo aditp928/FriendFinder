@@ -1,1 +1,271 @@
 <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FriendFinder.Survey</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Acme|Source+Sans+Pro" rel="stylesheet">
+  <style type="text/css">
+  h1{
+    font-family: 'Acme', sans-serif;
+  }
+  body{
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  p.question{
+    font-size: 20px;
+  }
+  footer{
+    font-size: 16px;
+  }
+</style>
+</head>
+
+<body>
+  <div class="container">
+    <div>
+      <h1>Survey Questions</h1>
+    </div>
+    
+    <div class="well">
+      <h3><strong>About You</strong></h3>
+      <div class="input-group">
+        <span class="input-group-addon" id="name-label">Name</span>
+        <input type="text" class="form-control" id="name" placeholder="name" aria-describedby="name" required="true">
+      </div>
+      <br>
+      <div class="input-group">
+        <span class="input-group-addon" id="photo-label">Link to Photo </span>
+        <input type="text" class="form-control" id="photo" placeholder="photo" aria-describedby="photo" required="true">
+      </div>
+    </div>
+
+    <div class="well questionSection">
+      <p class="question">1. Basketball is the best sport ever</p>
+      <span><i>Disagree</i></span>&nbsp;&nbsp;
+      <div class="btn-group options" role="group" aria-label="..." id="q1">
+        <button type="button" class="btn btn-default" value="1">1</button>
+        <button type="button" class="btn btn-default" value="2">2</button>
+        <button type="button" class="btn btn-default" value="3">3</button>
+        <button type="button" class="btn btn-default" value="4">4</button>
+        <button type="button" class="btn btn-default" value="5">5</button>
+      </div>&nbsp;&nbsp;
+      <span><i>Agree</i></span>
+    </div>
+
+    <div class="well questionSection">
+      <p class="question">2. Computer programming is best field to study</p>
+      <span><i>Disagree</i></span>&nbsp;&nbsp;
+      <div class="btn-group options" role="group" aria-label="..." id="q2">
+        <button type="button" class="btn btn-default" value="1">1</button>
+        <button type="button" class="btn btn-default" value="2">2</button>
+        <button type="button" class="btn btn-default" value="3">3</button>
+        <button type="button" class="btn btn-default" value="4">4</button>
+        <button type="button" class="btn btn-default" value="5">5</button>
+      </div>&nbsp;&nbsp;
+      <span><i>Agree</i></span>
+    </div>
+
+    <div class="well questionSection">
+      <p class="question">3. Chocolate Cake is the best dessert</p>
+      <span><i>Disagree</i></span>&nbsp;&nbsp;
+      <div class="btn-group options" role="group" aria-label="..." id="q3">
+        <button type="button" class="btn btn-default" value="1">1</button>
+        <button type="button" class="btn btn-default" value="2">2</button>
+        <button type="button" class="btn btn-default" value="3">3</button>
+        <button type="button" class="btn btn-default" value="4">4</button>
+        <button type="button" class="btn btn-default" value="5">5</button>
+      </div>&nbsp;&nbsp;
+      <span><i>Agree</i></span>
+    </div>
+
+    <div class="well questionSection">
+      <p class="question">4. Javascript is the best coding language</p>
+      <span><i>Disagree</i></span>&nbsp;&nbsp;
+      <div class="btn-group options" role="group" aria-label="..." id="q4">
+        <button type="button" class="btn btn-default" value="1">1</button>
+        <button type="button" class="btn btn-default" value="2">2</button>
+        <button type="button" class="btn btn-default" value="3">3</button>
+        <button type="button" class="btn btn-default" value="4">4</button>
+        <button type="button" class="btn btn-default" value="5">5</button>
+      </div>&nbsp;&nbsp;
+      <span><i>Agree</i></span>
+    </div>
+
+    <div class="well questionSection">
+      <p class="question">5. LeBron James is the G.O.A.T</p>
+      <span><i>Disagree</i></span>&nbsp;&nbsp;
+      <div class="btn-group options" role="group" aria-label="..." id="q5">
+        <button type="button" class="btn btn-default" value="1">1</button>
+        <button type="button" class="btn btn-default" value="2">2</button>
+        <button type="button" class="btn btn-default" value="3">3</button>
+        <button type="button" class="btn btn-default" value="4">4</button>
+        <button type="button" class="btn btn-default" value="5">5</button>
+      </div>&nbsp;&nbsp;
+      <span><i>Agree</i></span>
+    </div>
+
+    <div class="well questionSection">
+      <p class="question">6. The Orlando Magic are the best basketball team in the league?</p>
+      <span><i>Disagree</i></span>&nbsp;&nbsp;
+      <div class="btn-group options" role="group" aria-label="..." id="q6">
+        <button type="button" class="btn btn-default" value="1">1</button>
+        <button type="button" class="btn btn-default" value="2">2</button>
+        <button type="button" class="btn btn-default" value="3">3</button>
+        <button type="button" class="btn btn-default" value="4">4</button>
+        <button type="button" class="btn btn-default" value="5">5</button>
+      </div>&nbsp;&nbsp;
+      <span><i>Agree</i></span>
+    </div>
+
+    <div class="well questionSection">
+      <p class="question">7. Avengers Infinity Wars is the best marvel ever </p>
+      <span><i>Disagree</i></span>&nbsp;&nbsp;
+      <div class="btn-group options" role="group" aria-label="..." id="q7">
+        <button type="button" class="btn btn-default" value="1">1</button>
+        <button type="button" class="btn btn-default" value="2">2</button>
+        <button type="button" class="btn btn-default" value="3">3</button>
+        <button type="button" class="btn btn-default" value="4">4</button>
+        <button type="button" class="btn btn-default" value="5">5</button>
+      </div>&nbsp;&nbsp;
+      <span><i>Agree</i></span>
+    </div>
+
+    <div class="well questionSection">
+      <p class="question">8. Thanos is the best marvel villain </p>
+      <span><i>Disagree</i></span>&nbsp;&nbsp;
+      <div class="btn-group options" role="group" aria-label="..." id="q8">
+        <button type="button" class="btn btn-default" value="1">1</button>
+        <button type="button" class="btn btn-default" value="2">2</button>
+        <button type="button" class="btn btn-default" value="3">3</button>
+        <button type="button" class="btn btn-default" value="4">4</button>
+        <button type="button" class="btn btn-default" value="5">5</button>
+      </div>&nbsp;&nbsp;
+      <span><i>Agree</i></span>
+    </div>
+
+    <div class="well questionSection">
+      <p class="question">9. Pizza is the best food</p>
+      <span><i>Disagree</i></span>&nbsp;&nbsp;
+      <div class="btn-group options" role="group" aria-label="..." id="q9">
+        <button type="button" class="btn btn-default" value="1">1</button>
+        <button type="button" class="btn btn-default" value="2">2</button>
+        <button type="button" class="btn btn-default" value="3">3</button>
+        <button type="button" class="btn btn-default" value="4">4</button>
+        <button type="button" class="btn btn-default" value="5">5</button>
+      </div>&nbsp;&nbsp;
+      <span><i>Agree</i></span>
+    </div>
+
+    <div class="well questionSection">
+      <p class="question">10. Playstation 4 has the best games</p>
+      <span><i>Disagree</i></span>&nbsp;&nbsp;
+      <div class="btn-group options" role="group" aria-label="..." id="q10">
+        <button type="button" class="btn btn-default" value="1">1</button>
+        <button type="button" class="btn btn-default" value="2">2</button>
+        <button type="button" class="btn btn-default" value="3">3</button>
+        <button type="button" class="btn btn-default" value="4">4</button>
+        <button type="button" class="btn btn-default" value="5">5</button>
+      </div>&nbsp;&nbsp;
+      <span><i>Agree</i></span>
+    </div>
+
+    <div>
+      <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">Submit</button>
+    </div>
+
+    <hr>
+
+    <footer class="footer">
+      <div class="container">
+        <p>
+          <a href="/api/friends">API Friends List</a> | 
+          <a href="https://github.com/aditp928/FriendFinder">GitHub Repo</a>
+        </p>
+      </div>
+    </footer>
+    
+  </div>
+
+  <div id="friendsModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title"><strong>Best Match</strong></h2>
+        </div>
+        <div class="modal-body">
+         </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.btn-group button').click(function(){
+        $(this).addClass('active').siblings().removeClass('active');
+      });
+      $("#submit").on("click", function(){
+        event.preventDefault();
+        if(validateInputs()){
+          var scoresArray = [];
+          for(var i=1; i<=10; i++){
+            scoresArray.push($("#q"+i).find("button.active").prop('value'));
+          }
+          var userInput = {
+            "name": $("#name").val(),
+            "photo": $("#photo").val(),
+            "scores": scoresArray,
+          };
+          console.log(userInput);
+          var baseUrl = window.location.origin;
+          console.log("url", baseUrl);
+          $.post(baseUrl + "/api/friends", userInput, function(data){
+            $(".modal-body").empty();
+            data.forEach(function(match){
+              var div = $("<div>");
+              var name = $("<h2>").text(match.name);
+              var img = $("<img>").attr({"src": match.photo,"alt": "photo"})
+              .css({"width": "150px", "height": "150px"});
+              div.append(name, img);
+              $(".modal-body").append(div);
+            });
+            $("#friendsModal").modal('toggle');
+          });
+        }
+        else{
+          alert("Please fill out all fields before submitting!");
+        }
+      });
+      function validateInputs(){
+        if($("#name").val() === ''){
+          return false;
+        }
+        if($("#ph>oto").val() === ''){
+          return false;
+        }
+        $('.options').each(function() {
+          var value = $(this).find("button.active").prop('value');
+          if(value === undefined){
+            return false;
+          }
+        });
+        return true;
+      }
+      $('#friendsModal').on('hidden.bs.modal', function () {
+        location.reload();
+      })
+    }); 
+  </script>
+</body>
+</html> 
